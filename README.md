@@ -1,29 +1,29 @@
-# 📊 TelecomX: Análise Estratégica de Churn e Retenção
+# 📊 Projeto TelecomX: Inteligência de Dados contra a Evasão de Clientes
 
-![Capa do Projeto](perfil_risco.png)
+## 📌 1. Visão Geral e Objetivo
+Este projeto foi desenvolvido como parte do **Desafio Parte 1 do Programa ONE (Oracle Next Education)**. O cenário foca na **TelecomX**, uma empresa do setor de telecomunicações que enfrenta desafios com a retenção de clientes.
 
-## 📌 Contexto do Projeto
-Este projeto faz parte do **Desafio Parte 1 do Programa ONE (Oracle Next Education)**. O objetivo foi analisar a base de dados da TelecomX para identificar os gatilhos que levam ao cancelamento de clientes (**Churn**) e propor soluções baseadas em dados para aumentar o tempo de permanência (LTV).
+O objetivo central foi transformar dados brutos (JSON) em inteligência estratégica para responder a uma pergunta de negócio crítica: **"Por que nossos clientes de alto valor estão cancelando o serviço precocemente?"**
 
-## 🚀 Tecnologias Utilizadas
-* **Linguagem:** Python 3.10+
-* **Bibliotecas:** `Pandas` (ETL), `Matplotlib` e `Seaborn` (Visualização), `JSON`.
-* **Ambiente:** Google Colab
+## 🛠️ 2. Pipeline de Dados (O Processo Técnico)
+Para garantir que a análise fosse baseada em dados limpos e confiáveis, implementei um pipeline de ETL:
+* **Extração:** Consumo de dados via API.
+* **Transformação (Flattening):** Desaninhamento de estruturas JSON complexas para o formato tabular.
+* **Sanitização:** Tratamento de tipos de dados para análises estatísticas precisas.
 
-## 🛠️ Pipeline de Dados (ETL)
-* **Extração:** Dados consumidos via API em formato JSON.
-* **Transformação:** Desaninhamento de chaves complexas (Flattening) e normalização de tipos de dados.
-* **Sanitização:** Tratamento de valores nulos e padronização de categorias.
+## 📈 3. Análise de Churn (Insights Estratégicos)
+Abaixo, apresento o cruzamento de dados que revelou o ponto mais crítico da operação. Note como o perfil de **"Novo / Alto Valor"** possui a maior taxa de evasão, gerando prejuízo direto no CAC (Custo de Aquisição de Cliente).
 
-## 📈 Principais Insights (Business Intelligence)
-* **Fator Tempo (Causa Raiz):** O risco de evasão é crítico nos primeiros 12 meses. Após este período, a fidelização ocorre de forma orgânica.
-* **Fator Preço (Gatilho):** Mensalidades acima de R$ 60,00 disparam a decisão de cancelamento.
-* **Perfil de Risco:** Clientes **"Novos / Alto Valor"** representam a maior hemorragia financeira da operação.
+<div align="left">
+  <img src="perfil_risco.png" width="60%" alt="Mapa de Risco Estratégico">
+</div>
 
-## 💡 Recomendações Estratégicas
-1. **Subsídio de Primeiro Ano:** Conceder benefícios exclusivos nos primeiros 12 meses para garantir a transição pela zona de risco inicial.
-2. **Efeito Ancoragem:** Promover o cross-selling de serviços de segurança e backup para aumentar a dependência do ecossistema.
-3. **Monitoramento Ativo:** Implantar alertas de CRM para identificar clientes de alto valor com baixo tempo de casa e agir proativamente.
+## 💡 4. Recomendações e Soluções
+Com base na evidência visual acima, o projeto propõe:
+1.  **Fidelização por Ancoragem:** Cross-selling de serviços de segurança para aumentar o valor percebido.
+2.  **Subsídio de Maturação:** Redução de ticket no primeiro ano para transpor a "janela crítica" de 12 meses.
+3.  **CRM Proativo:** Alertas automáticos para perfis de alto risco.
 
 ---
-🎨 **Analista Responsável: Tânia Mara F. de Andrade** [LinkedIn](https://www.linkedin.com/in/taniamara13) | [GitHub](https://github.com/taniamara13)
+🎨 **Analista Responsável:** Tânia Mara F. de Andrade
+🔗 [Meu LinkedIn](https://www.linkedin.com/in/taniamara13) | [Meu GitHub](https://github.com/taniamara13)
