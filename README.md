@@ -29,8 +29,6 @@ A análise revelou que o perfil de **"Novo / Alto Valor"** possui a maior taxa d
   <img src="perfil_risco.png" width="65%" alt="Mapa de Risco Estratégico">
 </div>
 
-> 📄 **[Acesse o Relatório Executivo Completo (PDF)](./TelecomX_BR.ipynb%20-%20Colab%20-%20Relatorio%202.pdf)**
-
 ## 💡 4. Recomendações Estratégicas
 * **Fidelização por Serviços:** Promoção de cross-selling de segurança para aumentar a percepção de valor.
 * **Subsídio de Maturação:** Benefícios no primeiro ano para transpor a janela crítica de evasão.
